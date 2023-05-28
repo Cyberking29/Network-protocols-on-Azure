@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-Welcome back! In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+here we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -50,7 +50,7 @@ Open WireShark and for ICMP Traffic only. This traffic will display the relay re
 
 ![vivaldi_p4LlxYiVLv](https://user-images.githubusercontent.com/109401839/213243701-b3915d44-2aa3-4fe7-b637-e7d9c5ecd6c3.png)
 
-5. Observe RDP Traffic, Filter for RDP. We can do this by entering "tcp.port == 3389" in WireShark. Traffic is now constantly flowing, showing a live stream of packets between one computer to another. Fascinating isnt it? 
+5. Observe RDP Traffic, Filter for RDP. We can do this by entering "tcp.port == 3389" in WireShark. Traffic is now constantly flowing, showing a live stream of packets between one computer to another. 
 
 ![vivaldi_yi916o0Wbr](https://user-images.githubusercontent.com/109401839/213243903-af301b6a-d633-457e-ad1f-dc22cb93edf5.png)
 
